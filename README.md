@@ -1,6 +1,6 @@
 # stm32-lyric-screen
 基于上位机发送字模的可添加特效的歌词显示器
-按照[江协科技的stm32启动文件配置方式](https://www.bilibili.com/video/BV1th411z7sn/?share_source=copy_web&vd_source=5e17989c487ce7173c18acfa7a34fa30)
+按照[江协科技的stm32启动文件配置方式](https://www.bilibili.com/video/BV1th411z7sn/?share_source=copy_web&vd_source=5e17989c487ce7173c18acfa7a34fa30)添加start和library
 
 
 # 依赖
