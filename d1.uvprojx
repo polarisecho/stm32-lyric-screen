@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\start;.\user;.\library;.\system;.\hardware</IncludePath>
+              <IncludePath>.\start;.\user;.\library;.\system;.\basic</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -663,17 +663,27 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>hardware</GroupName>
+          <GroupName>basic</GroupName>
           <Files>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\basic\led.c</FilePath>
+            </File>
             <File>
               <FileName>lcd12864.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\hardware\lcd12864.c</FilePath>
+              <FilePath>.\basic\lcd12864.c</FilePath>
             </File>
             <File>
               <FileName>lcd12864.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\hardware\lcd12864.h</FilePath>
+              <FilePath>.\basic\lcd12864.h</FilePath>
+            </File>
+            <File>
+              <FileName>led.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\basic\led.h</FilePath>
             </File>
           </Files>
         </Group>
